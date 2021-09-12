@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import sqlite3 as sql
 
+
 ###############Database######################
 
 con = sql.connect(database="studentdb.sqlite")
@@ -24,13 +25,13 @@ con.close()
 
 #########################Window##################
 
-win = Tk()
-win.state('zoomed')
-win.title("Tuition Centre Management System ")
-win.iconbitmap('C:/Users/Dell/Desktop/tution.ico')
+root = Tk()
+root.state('zoomed')
+root.title("Tuition Centre Management System ")
+root.iconbitmap('C:/Users/Dell/Desktop/tution.ico')
 
-win.resizable(width=False, height=False)
-header_fem = Frame(win)
+root.resizable(width=False, height=False)
+header_fem = Frame(root)
 header_fem.configure(bg='red')
 header_fem.place(x=0, y=0, relwidth=1, relheight=0.2)
 
@@ -54,7 +55,7 @@ def main_body():
             else:
                 messagebox.showerror('Login gate', "Invalid UserName/Password")
 
-    frm = Frame(win)
+    frm = Frame(root)
     frm.configure(bg='green')
     frm.place(x=0, rely=0.2, relwidth=1, relheight=0.8)
 
@@ -83,7 +84,7 @@ def login_body():
         main_body()
 
 
-    frm = Frame(win)
+    frm = Frame(root)
     frm.configure(bg='light green')
     frm.place(x=0, rely=0.2, relwidth=1, relheight=0.8)
 
@@ -95,4 +96,4 @@ def login_body():
 
 
 
-win.mainloop()
+root.mainloop()

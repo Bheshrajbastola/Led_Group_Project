@@ -21,7 +21,8 @@ Managing the data of student is always hard for any organization. The small inst
  #  Tools Used 
    To developed this project different tools were used 
    
-                   ![image](https://user-images.githubusercontent.com/85820273/133789284-0bcf68af-4b03-4304-a1ae-d61ffd9c3a08.png)
+                  ![Presentation4](https://user-images.githubusercontent.com/85820273/133790024-ee448cc6-09a4-45c1-853a-c157e37b9461.jpg)
+
  
 1.	Python: Is used as the main programing language to write the code.
 2.	Pycharm: It is used as the Interpreter to run the python code.
@@ -31,3 +32,11 @@ Managing the data of student is always hard for any organization. The small inst
 6.	Sqlite3: It is used as the data storage for the data given in the program.
 7.	YouTube: It is uses as a platform to upload and share the project video.
 
+# Scope of the project
+            The main scope of this management system is to allow any institution to perform Data management in more effective way. It reduce the time and traditional practice of storing data in hand written format in file and register. It is suitable for the small organization, schools and tuition center to store their data. 
+            
+# Installing and Getting Started
+   First you need to have python and pycharm in your computer.
+   Then you have to download this project and simply run the Tution_centre_managenment_system file.
+   Sqlite is used as the database so no need to download any kind of the database software.
+   

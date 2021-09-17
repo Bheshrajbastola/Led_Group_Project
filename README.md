@@ -47,8 +47,7 @@ Managing the data of student is always hard for any organization. The small inst
   This project is user friendly so that any one without the knowledge of programming can also used.
   
 
-# Final Output
-     #  ![image](https://user-images.githubusercontent.com/85820273/133794187-cca496a1-c5ed-4f2e-8404-b10cf8f3f6ba.png)
+# Final Output  ![image](https://user-images.githubusercontent.com/85820273/133794187-cca496a1-c5ed-4f2e-8404-b10cf8f3f6ba.png)
 
 
 # Inserting the data 
@@ -59,10 +58,10 @@ Managing the data of student is always hard for any organization. The small inst
 # Searching Student    ![image](https://user-images.githubusercontent.com/85820273/133794557-108ff824-a5fa-48c8-ad34-77a3b7865b08.png)
 
 
-Bhesh Raj Bastola
-Coventry ID : 11782025
-Batch : June '30 B'
-Email: 210203@softwarica.edu.np
+#Bhesh Raj Bastola
+#Coventry ID : 11782025
+#Batch : June '30 B'
+#Email: 210203@softwarica.edu.np
 
    
    

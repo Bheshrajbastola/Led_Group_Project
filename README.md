@@ -58,10 +58,13 @@ Managing the data of student is always hard for any organization. The small inst
 # Searching Student    ![image](https://user-images.githubusercontent.com/85820273/133794557-108ff824-a5fa-48c8-ad34-77a3b7865b08.png)
 
 
-#Bhesh Raj Bastola
-#Coventry ID : 11782025
-#Batch : June '30 B'
-#Email: 210203@softwarica.edu.np
+    Bhesh Raj Bastola
+          Coventry ID : 11782025
+            Batch : June '30 B'
+             Email: 210203@softwarica.edu.np
 
-   
+     Member
+        Anjal Khadka
+            Prashamsha Acharya
+                Hary Jaswal
    

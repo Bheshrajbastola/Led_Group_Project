@@ -2,6 +2,8 @@
                                                       
                                                       
 #                                                             Tution Centre Managenment System 
+#   ![image](https://user-images.githubusercontent.com/85820273/133793330-ecbef2ab-6bfc-4f71-9e35-f7394f0d0b89.png)
+
 #    Introduction
        The project Tuition center management system is a desktop based application system. Designed using the python and tkinter module. Using the Sqlite3 for the storage system.  This is especially designed for the small organization like the Education institute to keep their student records.
 
@@ -40,5 +42,27 @@ Managing the data of student is always hard for any organization. The small inst
    Then you have to download this project and simply run the Tution_centre_managenment_system file.
    Sqlite is used as the database so no need to download any kind of the database software.
    
+# After Implementation
+  The small organization like tution centre will get benifit inuswd of it. 
+  This project is user friendly so that any one without the knowledge of programming can also used.
+  
+
+# Final Output
+     #  ![image](https://user-images.githubusercontent.com/85820273/133794187-cca496a1-c5ed-4f2e-8404-b10cf8f3f6ba.png)
+
+
+# Inserting the data 
+   # Login   ![image](https://user-images.githubusercontent.com/85820273/133794319-a1ad27a6-7c59-42e9-979f-cbf72d82d802.png)
+ # Adding student  ![image](https://user-images.githubusercontent.com/85820273/133794384-53b050e0-0420-4154-a816-28314e1a6d14.png)
+
+   # Adding Course   ![image](https://user-images.githubusercontent.com/85820273/133794447-6b8aab3b-7d28-4b27-90eb-c983c5b80f70.png)
+# Searching Student    ![image](https://user-images.githubusercontent.com/85820273/133794557-108ff824-a5fa-48c8-ad34-77a3b7865b08.png)
+
+
+Bhesh Raj Bastola
+Coventry ID : 11782025
+Batch : June '30 B'
+Email: 210203@softwarica.edu.np
+
    
    

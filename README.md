@@ -21,7 +21,7 @@ Managing the data of student is always hard for any organization. The small inst
  #  Tools Used 
    To developed this project different tools were used 
    
-                  ![Presentation4](https://user-images.githubusercontent.com/85820273/133790024-ee448cc6-09a4-45c1-853a-c157e37b9461.jpg)
+#![Presentation4](https://user-images.githubusercontent.com/85820273/133790024-ee448cc6-09a4-45c1-853a-c157e37b9461.jpg)
 
  
 1.	Python: Is used as the main programing language to write the code.
@@ -39,4 +39,6 @@ Managing the data of student is always hard for any organization. The small inst
    First you need to have python and pycharm in your computer.
    Then you have to download this project and simply run the Tution_centre_managenment_system file.
    Sqlite is used as the database so no need to download any kind of the database software.
+   
+   
    

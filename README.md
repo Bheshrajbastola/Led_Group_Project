@@ -64,7 +64,7 @@ Managing the data of student is always hard for any organization. The small inst
              Email: 210203@softwarica.edu.np
 
      Member
-        Anjal Khadka
-            Prashamsha Acharya
-                Hary Jaswal
+        Anjal Khadka 210229
+            Prashamsha Acharya 210289
+                Hary Jaswal 210264
    

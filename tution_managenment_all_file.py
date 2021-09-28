@@ -19,6 +19,7 @@ try:
     cursor.execute("create table course(course_name text ,course_fee int)")'''
     con.commit()
 
+########################## file handling ############################
 except Exception as e:
     print(e)
 con.close()
@@ -163,6 +164,7 @@ def register_student_body():
                                (id, name, mob, course, fee, (int(course_fee) - int(fee))))
                 con.commit()
                 messagebox.showinfo('Arial', 'Registration Successful')
+
             except Exception as e:
                 messagebox.showerror('entry', str(e))
             con.close()
@@ -185,6 +187,8 @@ def register_student_body():
     con = sql.connect(database="studentdb.sqlite")
     cursor = con.cursor()
     cursor.execute("select max(stu_id) from students ")
+
+#############Student ID ###############
     max_id = cursor.fetchone()
     if max_id[0] == None:
         stu_id_db = 1
@@ -218,10 +222,12 @@ def register_student_body():
 
     con = sql.connect(database="studentdb.sqlite")
     cursor = con.cursor()
+
     cursor.execute("select * from course")
     courses = cursor.fetchall()
     courses.insert(0, "----------Select------------")
     con.close()
+
     course_list = Combobox(frm, values=courses, font=('Arial', 15))
     course_list.place(relx=0.5, rely=0.45)
     course_list.current(0)
@@ -286,7 +292,6 @@ def find_student_body():
 
 ###################DELETE###########################
 
-
 def delete_student_body():
     def logout():
         frm.destroy()
@@ -302,14 +307,6 @@ def delete_student_body():
         cursor = con.cursor()
         cursor.execute("DELETE  from students where stu_id=?", (id,))
 
-        row = cursor.fetchone()
-
-        if row == None:
-            messagebox.showwarning('delete', "Student Id not Found....")
-        else:
-            messagebox.showinfo('delete', str(row))
-            frm.destroy()
-            delete_student_body()
 
     frm = Frame(win)
     frm.configure(bg='orange')
@@ -358,7 +355,7 @@ def add_course_body():
             try:
                 cursor.execute("insert into course values(?,?)", (n, f))
                 con.commit()
-                messagebox.showinfo('Arial', 'Course Added')
+                messagebox.showinfo( 'Course Added')
             except Exception as e:
                 messagebox.showerror('Arial', str(e))
             con.close()
@@ -416,7 +413,7 @@ def update_course_body():
         cursor.execute("update course set course_fee=? where course_name=?", (amt, co_urse))
         con.commit()
         con.close()
-        messagebox.showinfo('', " Course Updated...")
+        messagebox.showinfo(" Course Updated...")
         frm.destroy()
         update_course_body()
 

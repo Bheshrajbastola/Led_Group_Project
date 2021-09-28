@@ -5,9 +5,13 @@
 #   ![image](https://user-images.githubusercontent.com/85820273/133793330-ecbef2ab-6bfc-4f71-9e35-f7394f0d0b89.png)
 
 #    Introduction
-       The project Tuition center management system is a desktop based application system. Designed using the python and tkinter module. Using the Sqlite3 for the storage system.  This is especially designed for the small organization like the Education institute to keep their student records.
-
-Managing the data of student is always hard for any organization. The small institute cannot handle the data of the student properly. They are still using the register to store the data of student.  Over time, various institute are facing problem and are in the loss or in verge of extinction.
+       The project Tuition center management system is a desktop based application system. Designed using the python and tkinter module. 
+       Using the Sqlite3 for the storage system.  This is especially designed for the small 
+       organization like the Education institute to keep their student records.
+          Managing the data of student is always hard for any organization. 
+          The small institute cannot handle the data of the student properly. 
+          They are still using the register to store the data of student.  
+          Over time, various institute are facing problem and are in the loss or in verge of extinction.
 
 
 #       Feature of the Project

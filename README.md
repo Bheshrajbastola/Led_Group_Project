@@ -26,14 +26,14 @@
    
 #![Presentation4](https://user-images.githubusercontent.com/85820273/133790024-ee448cc6-09a4-45c1-853a-c157e37b9461.jpg)
 
- 
- 1. Python: Used as the primary programming language for writing code. 
- 2. Pycharm: Used as an interpreter to run Python code. 
- 3. Tkinter: Used as a Python integration to create a graphical user interface. 
- 4. GitHub: Used as a code backup platform. 
- 5. Microsoft Office 365: Used as a platform for writing and sharing documentation. 
- 6. Sqlite3: Used as a data store for the data specified in the program. 
- 7. YouTube: Used as a platform for uploading and distributing project videos.
+
+•	Python: Is used as the main programing language to write the code.
+•	Pycharm: It is used as the Interpreter to run the python code.
+•	Tkinter: It is used as the python integration to create the graphical user interface.
+•	GitHub: It is used as the platform for the code back up.
+•	Microsoft Office 365: It is used as the platform for writing and sharing documentation.
+•	Sqlite3: It is used as the data storage for the data given in the program.
+•	YouTube: It is uses as a platform to upload and share the project video.
 
 
 # Scope of the project
